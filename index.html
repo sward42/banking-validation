@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form Template</title>
+	<link rel="stylesheet" type="text/css" href="validation.css">
+</head>
+<body>
+<div id="appForm">
+<h1>Loan Application Form</h1>
+<hr>
+<br>
+<form>
+	<label>First Name:</label>
+	<input type="text" name="nameFirst">
+	
+	<label>Middle Initial:</label>
+	<input type="text" name="nameMid">
+
+	<label>Last Name:</label>
+	<input type="text" name="nameLast">
+	<br>
+	<br>
+	<label>Address:</label>
+	<br>
+	<textarea rows="4" cols="100"></textarea>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<label>Occupation:</label>
+	<input type="text" name="job">
+
+	<label>Employer:</label>
+	<input type="text" name="employer">
+	<br>
+	<br>
+	<label>Employer Address:</label>
+	<br>
+	<textarea rows="4" cols="100"></textarea>
+	<br>
+	<br>
+	<hr>
+	<br>
+	<label>Type of Loan:</label>
+	<br>
+	<select name="loanType">
+		<option value="commercial">Commercial</option>
+		<option value="real estate">Real Estate</option>
+		<option value="personal">Personal</option>
+		<option value="mortgage">Mortgage</option>
+	</select>
+	<br>
+	<br>
+	<label>Requested Loan Amount:</label>
+	<br>
+	<input type="text" name="loan">
+	<br>
+	<br>
+	<input type="radio" name="time" value="5yr">5 years<br>
+	<input type="radio" name="time" value="15yr">15 years<br>
+	<input type="radio" name="time" value="30yr">30 years<br>
+<br>
+
+	<input type="checkbox" name="spec" value="dwnpay">I have a down payment<br>
+	<input type="checkbox" name="spec" value="outOfState">Out-of-State<br>
+	<input type="checkbox" name="spec" value="married">Married<br>
+	<input type="checkbox" name="spec" value="coSign">The loan will be co-signed<br>
+	<br>
+
+	<label>Additional Comments:</label>
+	<br>
+
+	<textarea name="comments" rows="4" cols="60"></textarea>
+	<br>
+	<br>
+	<hr>
+	<label for="userEmail">Email Address:</label><br>
+	<input type="email" name="userEmail" required/>
+	<br>
+	<br>
+	<label>Phone Number:</label><br>
+	<input type="tel" name="userPhone">
+	<br>
+	<br>
+	<label>LinkedIn URL:</label><br>
+	<input type="url" name="linkedIn" required/>
+
+
+</form>
+</div>
+</body>
+</html>
